@@ -1,0 +1,94 @@
+//
+//  UIDownloadableImageView.m
+//  Rising Star
+//
+//  Created by Jano A. on 24/02/14.
+//  Copyright (c) 2014 Jano A. All rights reserved.
+//
+
+#import "UIDownloadableImageView.h"
+#import "API.h"
+
+@implementation UIDownloadableImageView
+
+- (id)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        // Initialization code
+    }
+    return self;
+}
+
+- (void)loadImage:(NSString*)url {
+    if(url == nil || [url isEqualToString:@""]) {
+        return;
+    }
+    UIImage *image = [self getSavedImageFromURL:url];
+    if(image != nil) { //Image is already downloaded
+        [self setImage:image];
+        [self setLoading:NO];
+    }
+    else { //Download image
+        [self setLoading:YES];
+        [self downloadImageFromURL:url success:^(AFHTTPRequestOperation *operation, id responseObject) {
+            [[API sharedInstance] saveImage:responseObject withName:[API getImageNameFromURL:url]];
+            [self setImage:[self getSavedImageFromURL:url]];
+            [self setLoading:NO];
+        } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+            [self performSelector:@selector(loadImage:) withObject:url afterDelay:TIME_BETWEEN_INTENTS];
+        }];
+    }
+}
+
+-(UIImage*)getSavedImageFromURL:(NSString*)url {
+    if([url rangeOfString:@"http"].location == NSNotFound ) {//Not an url
+        UIImage *result = [UIImage imageNamed:url];
+        return result;
+    }
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *documentsDirectory = [paths objectAtIndex:0];
+    //NSLog(@"Image URL: %@", url);
+    UIImage * result = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@", documentsDirectory, [API getImageNameFromURL:url]]];
+    return result;
+}
+
+-(void)downloadImageFromURL:(NSString *)url success:(void (^)(AFHTTPRequestOperation *operation, id responseObject))success failure:(void (^)(AFHTTPRequestOperation *operation, NSError *error))failure {
+    NSURLRequest *urlRequest = [NSURLRequest requestWithURL:[NSURL URLWithString:url]];
+    AFHTTPRequestOperation *postOperation = [[AFHTTPRequestOperation alloc] initWithRequest:urlRequest];
+    postOperation.responseSerializer = [AFImageResponseSerializer serializer];
+    [postOperation setCompletionBlockWithSuccess:success failure:failure];
+    [postOperation start];
+}
+
+-(void)setLoading:(BOOL)option {
+    if(option) {
+        [self setBackgroundColor:[UIColor grayColor]];
+        if(!activityIndicator) {
+            activityIndicator = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+            [activityIndicator startAnimating];
+            [self addSubview:activityIndicator];
+            activityIndicator.center = self.center;
+        }
+        [activityIndicator setHidden:NO];
+    }
+    else {
+        [self setBackgroundColor:[UIColor clearColor
+                                  ]];
+        if(activityIndicator) {
+            [activityIndicator setHidden:YES];
+        }
+    }
+    
+}
+
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect
+{
+    // Drawing code
+}
+*/
+
+@end

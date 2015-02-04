@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TFView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rzm-E2-gd2" userLabel="Text View">
+                    <rect key="frame" x="0.0" y="1024" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="THt-9m-6Ym">
+                            <rect key="frame" x="0.0" y="333" width="768" height="691"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Votaçao Instantânea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7tG-Sk-cv4">
+                            <rect key="frame" x="8" y="207" width="752" height="47"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="42"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.20392156859999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ico_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="awV-2J-aSL">
+                            <rect key="frame" x="290" y="51" width="189" height="118"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="iKi-4K-8bG">
+                            <rect key="frame" x="0.0" y="333" width="768" height="8"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="VpL-SM-iQG">
+                            <rect key="frame" x="0.0" y="1016" width="768" height="8"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fique ligado na programação da Rede Record e não perca a próxima Votação Instantânea" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wNp-j6-A0t">
+                            <rect key="frame" x="32" y="403" width="704" height="293"/>
+                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="30"/>
+                            <color key="textColor" red="0.32156862749999998" green="0.3411764706" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sLn-In-s8H" userLabel="Image View">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="QUD-Rl-6yO">
+                            <rect key="frame" x="0.0" y="333" width="768" height="691"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Votaçao Instantânea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l9c-CR-XWg">
+                            <rect key="frame" x="8" y="207" width="752" height="47"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="42"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.20392156859999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ico_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="vln-cN-VVZ">
+                            <rect key="frame" x="290" y="51" width="189" height="118"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="dVK-Xt-L7e">
+                            <rect key="frame" x="0.0" y="333" width="768" height="8"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="jsi-Zt-J8N">
+                            <rect key="frame" x="0.0" y="1016" width="768" height="8"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gOt-tl-lag">
+                            <rect key="frame" x="28" y="431" width="712" height="331"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BKg-Nt-L03" userLabel="Auth View">
+                    <rect key="frame" x="0.0" y="1024" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="pIc-ga-ZJ5">
+                            <rect key="frame" x="0.0" y="333" width="768" height="691"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="0eK-lf-sFh">
+                            <rect key="frame" x="0.0" y="333" width="768" height="8"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="dQI-qj-nxn">
+                            <rect key="frame" x="0.0" y="1016" width="768" height="8"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3aS-P6-uRV">
+                            <rect key="frame" x="126" y="590" width="514" height="86"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                            <state key="normal" title="Sim, autorizo" backgroundImage="btn_yes.png">
+                                <color key="titleColor" red="0.99607843139999996" green="0.98431372549999996" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbu-tH-2I0">
+                            <rect key="frame" x="126" y="725" width="516" height="86"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                            <state key="normal" title="Não, não autorizo" backgroundImage="btn_no.png">
+                                <color key="titleColor" red="0.14117647059999999" green="0.1529411765" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Votaçao Instantânea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JlB-3K-MR5">
+                            <rect key="frame" x="8" y="204" width="752" height="47"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="42"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.20392156859999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ico_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="Aru-2d-XJD">
+                            <rect key="frame" x="290" y="39" width="189" height="118"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Você autoriza a publicaçao da sua foto na TV e/ou no site oficial?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="32v-eD-8U0">
+                            <rect key="frame" x="52" y="396" width="664" height="140"/>
+                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="30"/>
+                            <color key="textColor" red="0.32156862749999998" green="0.3411764706" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qCl-a6-5V7" userLabel="Vote View">
+                    <rect key="frame" x="0.0" y="1024" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="RCc-Vh-Ok5">
+                            <rect key="frame" x="0.0" y="333" width="768" height="691"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="bN9-8W-MOC">
+                            <rect key="frame" x="0.0" y="333" width="768" height="8"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="0A4-Ko-Qc7">
+                            <rect key="frame" x="0.0" y="1016" width="768" height="8"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vote e interaja ao vivo com os programas da Rede Record" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HFW-bM-Dv4">
+                            <rect key="frame" x="52" y="349" width="664" height="140"/>
+                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="30"/>
+                            <color key="textColor" red="0.32156862749999998" green="0.3411764706" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zCI-JF-GPh">
+                            <rect key="frame" x="126" y="702" width="514" height="86"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                            <state key="normal" title="Sim, autorizo" backgroundImage="btn_yes.png">
+                                <color key="titleColor" red="0.99607843139999996" green="0.98431372549999996" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m8U-GY-8kh">
+                            <rect key="frame" x="125" y="514" width="516" height="86"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                            <state key="normal" title="Não, não autorizo" backgroundImage="btn_no.png">
+                                <color key="titleColor" red="0.14117647059999999" green="0.1529411765" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7S-iq-6AG">
+                            <rect key="frame" x="125" y="608" width="516" height="86"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                            <state key="normal" title="Não, não autorizo" backgroundImage="btn_no.png">
+                                <color key="titleColor" red="0.14117647059999999" green="0.1529411765" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Votaçao Instantânea" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GYI-yN-ALx">
+                            <rect key="frame" x="8" y="204" width="752" height="47"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="42"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.20392156859999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ico_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="m0b-OI-3PC">
+                            <rect key="frame" x="290" y="39" width="189" height="118"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uq2-vf-rSU">
+                            <rect key="frame" x="126" y="796" width="516" height="86"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="36"/>
+                            <state key="normal" title="Não, não autorizo" backgroundImage="btn_no.png">
+                                <color key="titleColor" red="0.14117647059999999" green="0.1529411765" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sLM-jc-RQK" userLabel="Missed View">
+                    <rect key="frame" x="0.0" y="1024" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="1Kd-TE-kf6">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="714"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rk8-Mf-1Yh">
+                            <rect key="frame" x="61" y="761" width="646" height="143"/>
+                            <string key="text">Infelizmente o período de votação desta enquete se encerrou.</string>
+                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="30"/>
+                            <color key="textColor" red="0.32156862749999998" green="0.3411764706" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="vBM-X5-ztV">
+                            <rect key="frame" x="0.0" y="704" width="768" height="10"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="uDv-IK-pwo">
+                            <rect key="frame" x="0.0" y="1016" width="768" height="8"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Votaçao Encerrada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbM-Ql-Th1">
+                            <rect key="frame" x="40" y="533" width="689" height="80"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="42"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.20392156859999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icn_sad.png" translatesAutoresizingMaskIntoConstraints="NO" id="ohZ-bz-eS3">
+                            <rect key="frame" x="251" y="217" width="266" height="290"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8hG-rx-iWh" userLabel="Thanks View">
+                    <rect key="frame" x="0.0" y="1024" width="768" height="1024"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="j1J-WG-RQA">
+                            <rect key="frame" x="0.0" y="0.0" width="768" height="714"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fique ligado na programação da Rede Record e não perca a próxima Votação Instantânea" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jgf-O5-zA3">
+                            <rect key="frame" x="61" y="761" width="646" height="143"/>
+                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="30"/>
+                            <color key="textColor" red="0.32156862749999998" green="0.3411764706" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_small.png" translatesAutoresizingMaskIntoConstraints="NO" id="3rv-Zv-hjj">
+                            <rect key="frame" x="0.0" y="704" width="768" height="10"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg_bar_big.png" translatesAutoresizingMaskIntoConstraints="NO" id="ylr-y8-ceV">
+                            <rect key="frame" x="0.0" y="1016" width="768" height="8"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Obrigado por votar!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U4u-Z7-FTv">
+                            <rect key="frame" x="40" y="533" width="689" height="76"/>
+                            <fontDescription key="fontDescription" name="Arial-BoldMT" family="Arial" pointSize="42"/>
+                            <color key="textColor" red="0.18823529410000001" green="0.20392156859999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ico_check.png" translatesAutoresizingMaskIntoConstraints="NO" id="nBC-UY-MOd">
+                            <rect key="frame" x="251" y="217" width="266" height="290"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                </view>
+            </subviews>
+            <point key="canvasLocation" x="140" y="155"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg.png" width="768" height="1155"/>
+        <image name="bg_bar_big.png" width="768" height="8"/>
+        <image name="bg_bar_small.png" width="768" height="6"/>
+        <image name="btn_no.png" width="677" height="116"/>
+        <image name="btn_yes.png" width="677" height="116"/>
+        <image name="icn_sad.png" width="262" height="265"/>
+        <image name="ico_check.png" width="223" height="223"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

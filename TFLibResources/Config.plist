@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Precache</key>
+	<string>rs/1/get-pre-cache</string>
+	<key>Data</key>
+	<string>rs/1/get-data</string>
+	<key>Status</key>
+	<string>sub?id=status</string>
+	<key>StatusQA</key>
+	<string>sub?id=statusqa</string>
+	<key>BaseDataURL</key>
+	<string>http://api.record.scrnz.com</string>
+	<key>Login</key>
+	<string>login</string>
+	<key>Vote</key>
+	<string>rs/1/v</string>
+	<key>CheckIn</key>
+	<string>rs/1/c</string>
+	<key>Register</key>
+	<string>user/1/add-user</string>
+	<key>TOs</key>
+	<string>rs/1/get-tos</string>
+</dict>
+</plist>
